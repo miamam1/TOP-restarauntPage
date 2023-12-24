@@ -1,0 +1,81 @@
+body {
+    background-color: #fccc00;
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #002a86;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+
+.navbar button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer
+}
+
+.navbar button:hover {
+    color: #fccc00;
+}
+
+.home {
+    color: red;
+}
+
+.navbarLogo {
+    width: 5%;
+   
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blurbContainer {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 20%;
+    align-self: center;
+    margin-bottom: 25%;
+    padding: 15px;
+    font-size: 1.35rem;
+}
+
+.blurbContainer h2 {
+    color: white;
+    background-color: #002a86;
+    text-align: center;
+    
+}
+
+.blurbAuthor {
+    color: white;
+    background-color: #9f1000;
+    align-self: flex-end;
+}
+
+.menuContainer {
+    background-color: #fccc00;
+    
+    
+}
+
+.valuesContainer {
+    background-color: #fccc00;
+    
+}
